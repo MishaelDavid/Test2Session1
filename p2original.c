@@ -19,9 +19,11 @@ void output(float istraingle)
 }
 int main()
 {
+ 
   float x1,y1,x2,y2,x3,y3,istriangle;
   input_triangle(&x1,&y1,&x2,&y2,&x3,&y3);
   istriangle = is_triangle(x1,y1,x2,y2,x3,y3);
   output(istriangle);
   return 0;
+  
 }
